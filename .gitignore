@@ -1,9 +1,20 @@
 # Ignore everything by default
 *
 
-# Allow only the deployment files we want
+# Allow only the minimal files we want
 !app.py
 !requirements.txt
-!AI SEO Landing - Standalone.html
+!templates/
+!templates/AI SEO Landing - Standalone.html
 !.gitignore
 !README.md
+
+# Explicitly ignore other templates and system files
+templates/index.html
+templates/tracker.html
+.env
+.env.example
+.idea/
+.venv/
+__pycache__/
+captured_locations.json

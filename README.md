@@ -1,11 +1,11 @@
 # AI SEO Landing Page - Vinay
 
-This repository contains the production-ready Python Flask application serving the **AI SEO Landing Page** (Standalone HTML) on port 5000. It is designed to be deployed on a VPS (like Hostinger) alongside other applications (e.g. Next.js) without any port conflicts.
+This repository contains a clean, minimal single-page Python Flask application serving the **AI SEO Landing Page** on port 5000. It is designed to be deployed on a VPS (like Hostinger) alongside other applications (e.g. Next.js) without any port conflicts.
 
 ## 🚀 Files Included
 
-* **`app.py`**: The core Flask server running on port `5000` (bound to `0.0.0.0` for VPS external access).
-* **`AI SEO Landing - Standalone.html`**: The main standalone SEO agency landing page.
+* **`app.py`**: The core Flask server running on port `5000` (bound to `0.0.0.0` for VPS external access) serving ONLY the landing page.
+* **`templates/AI SEO Landing - Standalone.html`**: The main standalone SEO agency landing page, complete with a custom brand favicon.
 * **`requirements.txt`**: Minimal requirements (Flask) for running the server.
 
 ## 📦 How to Run Locally
