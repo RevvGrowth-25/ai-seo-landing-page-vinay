@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Allow only the deployment files we want
+!app.py
+!requirements.txt
+!AI SEO Landing - Standalone.html
+!.gitignore
+!README.md
