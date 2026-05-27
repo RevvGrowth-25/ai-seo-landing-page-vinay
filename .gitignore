@@ -8,6 +8,7 @@
 !templates/AI SEO Landing - Standalone.html
 !.gitignore
 !README.md
+!deployment.md
 
 # Explicitly ignore other templates and system files
 templates/index.html
